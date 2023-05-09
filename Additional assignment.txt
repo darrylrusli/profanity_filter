@@ -1,0 +1,27 @@
+
+
+
+
+Helper code to read a text file 
+---------------------------------
+file_obj = open(file_path) #File path is the complete path of the file to be read 
+file_contents = file_obj.readlines()
+type(file_contents)
+
+Note : If your file is placed in the downloads folder then the file path would be as follows 
+
+C:\Users\your_user_name\Downloads\name_of_the_file with_extension
+
+Inorder to know the file path, do the following actions 
+1)Right click on the file 
+2)Select the properties options (this will open a window) 
+3)Select the "Details" tab
+4)Look at the property "File location"
+
+
+If your username is JimHerald and file name is micky.txt in the downloads folder, the file path will look like the one below 
+
+C:\Users\JimHerald\Downloads\micky.txt
+
+
+
